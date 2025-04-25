@@ -5,4 +5,11 @@ export default [
   route("about", "routes/about.tsx"),
   route("services", "routes/services.tsx"),
   route("contact", "routes/contact.tsx"),
+  route("countries", "routes/countries/layout.tsx", [
+    index("routes/index.tsx"),
+    // Remove the dynamic route and add static routes
+    route("us", "routes/countries/us.tsx"),
+    // route("ca", "routes/countries/ca.tsx"),
+    // Add more country routes as needed
+  ]),
 ] satisfies RouteConfig;

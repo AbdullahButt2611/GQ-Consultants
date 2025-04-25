@@ -11,4 +11,6 @@ type Params = {
   "/about": {};
   "/services": {};
   "/contact": {};
+  "/countries": {};
+  "/countries/us": {};
 };
