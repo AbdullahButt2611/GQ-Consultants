@@ -87,6 +87,7 @@ export function Welcome() {
               countryName={country.name}
               description={country.description}
               flagImage={country.flagUrl}
+              slug={country.slug}
             />
           ))}
         </div>
