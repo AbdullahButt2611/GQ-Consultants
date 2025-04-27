@@ -53,6 +53,7 @@ export default function CountriesIndex() {
               countryName={country.name}
               description={country.description}
               flagImage={country.flagUrl}
+              slug={country.slug}
             />
           </div>
         ))}
