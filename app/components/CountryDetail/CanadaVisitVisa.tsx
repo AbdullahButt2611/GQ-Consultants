@@ -1,7 +1,7 @@
 import { countries } from "~/content/contryinfo";
 
 export default function CAVisitVisa() {
-  const countryInfo = countries.find(c => c.code === "CA");
+  const countryInfo = countries.find(c => c.slug === "canada-visit-visa");
   
   if (!countryInfo) {
     return null;
