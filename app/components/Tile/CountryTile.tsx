@@ -5,17 +5,19 @@ export interface CountryTileProps {
   countryName: string;
   description: string;
   flagImage?: string;
+  slug: string;
 }
 
 export function CountryTile({ 
   countryCode,
   countryName, 
   description, 
-  flagImage
+  flagImage,
+  slug
 }: CountryTileProps) {
   return (
     <Link 
-      to={`/countries/${countryCode.toLowerCase()}`} 
+      to={`/countries/${slug}`} 
       className="block h-full group"
     >
       <div className="relative h-full bg-white dark:bg-gray-800 rounded-lg overflow-hidden transition-all duration-300">
