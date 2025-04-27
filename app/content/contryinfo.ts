@@ -21,17 +21,18 @@ export interface CountryInfo {
       flagUrl: "/images/flags/uk.webp",
       slug: "uk-visit-visa"
     },
+    {
+      code: "AU",
+      name: "Australia",
+      description: "Tourist and  Visit Visa Process for Australia",
+      flagUrl: "/images/flags/au.png",
+      slug: "australia-visit-visa"
+    },
     // {
     //   code: "US",
     //   name: "United States",
     //   description: "Tourist & Business Visa Application Process",
     //   flagUrl: "/images/flags/us.svg"
-    // },
-    // {
-    //   code: "AU",
-    //   name: "Australia",
-    //   description: "Visitor & Skilled Migration Visas",
-    //   flagUrl: "/images/flags/au.jpg"
     // },
     // {
     //   code: "NZ",
