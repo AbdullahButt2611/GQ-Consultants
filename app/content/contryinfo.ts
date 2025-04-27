@@ -28,6 +28,13 @@ export interface CountryInfo {
       flagUrl: "/images/flags/au.png",
       slug: "australia-visit-visa"
     },
+    {
+      code: "US",
+      name: "United States",
+      description: "Visit Visa Process for USA",
+      flagUrl: "/images/flags/us.svg",
+      slug: "us-visit-visa"
+    },
     // {
     //   code: "US",
     //   name: "United States",
