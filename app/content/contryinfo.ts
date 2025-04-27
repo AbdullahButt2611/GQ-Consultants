@@ -14,17 +14,18 @@ export interface CountryInfo {
       flagUrl: "/images/flags/ca.jpg",
       slug: "canada-visit-visa"
     },
+    {
+      code: "UK",
+      name: "UK",
+      description: "Visit Visa Process for UK",
+      flagUrl: "/images/flags/uk.webp",
+      slug: "uk-visit-visa"
+    },
     // {
     //   code: "US",
     //   name: "United States",
     //   description: "Tourist & Business Visa Application Process",
     //   flagUrl: "/images/flags/us.svg"
-    // },
-    // {
-    //   code: "UK",
-    //   name: "United Kingdom",
-    //   description: "Tourist & Student Visa Processing",
-    //   flagUrl: "/images/flags/uk.jpg"
     // },
     // {
     //   code: "AU",
