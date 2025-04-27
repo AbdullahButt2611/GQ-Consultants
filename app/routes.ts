@@ -13,6 +13,7 @@ export default [
     route("uk-visit-visa", "routes/countries/uk-visit-visa.tsx"),
     route("australia-visit-visa", "routes/countries/australia-visit-visa.tsx"),
     route("us-visit-visa", "routes/countries/usa-visit-visa.tsx"),
+    route("ie-visit-visa", "routes/countries/ie-visit-visa.tsx"),
     // route("ca", "routes/countries/ca.tsx"),
     // Add more country routes as needed
   ]),

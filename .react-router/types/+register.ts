@@ -17,4 +17,5 @@ type Params = {
   "/countries/uk-visit-visa": {};
   "/countries/australia-visit-visa": {};
   "/countries/us-visit-visa": {};
+  "/countries/ie-visit-visa": {};
 };
