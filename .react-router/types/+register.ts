@@ -13,4 +13,5 @@ type Params = {
   "/contact": {};
   "/countries": {};
   "/countries/us": {};
+  "/countries/canada-visit-visa": {};
 };
