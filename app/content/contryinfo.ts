@@ -41,16 +41,4 @@ export interface CountryInfo {
     //   description: "Tourist & Business Visa Application Process",
     //   flagUrl: "/images/flags/us.svg"
     // },
-    // {
-    //   code: "NZ",
-    //   name: "New Zealand",
-    //   description: "Tourist & Working Holiday Visas",
-    //   flagUrl: "/images/flags/nz.jpg"
-    // },
-    // {
-    //   code: "SG",
-    //   name: "Singapore",
-    //   description: "Tourist & Business Travel Visas",
-    //   flagUrl: "/images/flags/sg.jpg"
-    // }
   ];
