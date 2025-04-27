@@ -10,6 +10,7 @@ export default [
     // Remove the dynamic route and add static routes
     route("us", "routes/countries/us.tsx"),
     route("canada-visit-visa", "routes/countries/canada-visit-visa.tsx"),
+    route("uk-visit-visa", "routes/countries/uk-visit-visa.tsx"),
     // route("ca", "routes/countries/ca.tsx"),
     // Add more country routes as needed
   ]),
