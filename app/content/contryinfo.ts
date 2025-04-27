@@ -3,21 +3,23 @@ export interface CountryInfo {
     name: string;
     description: string;
     flagUrl?: string;
+    slug: string;
   }
   
   export const countries: CountryInfo[] = [
     {
-      code: "US",
-      name: "United States",
-      description: "Tourist & Business Visa Application Process",
-      flagUrl: "/images/flags/us.svg"
-    },
-    {
       code: "CA",
       name: "Canada",
-      description: "Visitor & Work Permit Application",
-      flagUrl: "/images/flags/ca.jpg"
+      description: "Visit Visa Process for Canada",
+      flagUrl: "/images/flags/ca.jpg",
+      slug: "canada-visit-visa"
     },
+    // {
+    //   code: "US",
+    //   name: "United States",
+    //   description: "Tourist & Business Visa Application Process",
+    //   flagUrl: "/images/flags/us.svg"
+    // },
     // {
     //   code: "UK",
     //   name: "United Kingdom",
