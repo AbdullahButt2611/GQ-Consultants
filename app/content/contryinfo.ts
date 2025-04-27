@@ -35,6 +35,13 @@ export interface CountryInfo {
       flagUrl: "/images/flags/us.svg",
       slug: "us-visit-visa"
     },
+    {
+      code: "IE",
+      name: "Ireland",
+      description: "Visit Visa Process for Ireland",
+      flagUrl: "/images/flags/ie.png",
+      slug: "ie-visit-visa"
+    },
     // {
     //   code: "US",
     //   name: "United States",
