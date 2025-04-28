@@ -11,8 +11,8 @@ export function Layout({ children }: { children: React.ReactNode }) {
           <div className="flex justify-between items-center py-4">
             <div className="flex items-center">
               <Link to="/" className="flex items-center">
-                <div className="h-8 w-8 bg-blue-600 rounded-md flex items-center justify-center mr-2">
-                  <span className="text-white font-bold text-lg">GQ</span>
+                <div className="h-8 w-12 bg-blue-600 rounded-md flex items-center justify-center mr-2">
+                  <span className="text-white font-bold text-lg">G&Q</span>
                 </div>
                 <span className="font-bold text-xl text-gray-800 dark:text-white">Consultants</span>
               </Link>
