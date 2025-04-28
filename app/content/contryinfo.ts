@@ -42,6 +42,13 @@ export interface CountryInfo {
       flagUrl: "/images/flags/ie.png",
       slug: "ie-visit-visa"
     },
+    {
+      code: "SC",
+      name: "Schengen",
+      description: "Visit Visa Process for Schengen States",
+      flagUrl: "/images/flags/sc.jpeg",
+      slug: "sc-visit-visa"
+    },
     // {
     //   code: "US",
     //   name: "United States",
