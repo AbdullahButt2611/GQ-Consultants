@@ -1,6 +1,6 @@
 # GQ Consultants
 
-![Project Poster](#) 
+![Project Poster](demo.png) 
 
 
 ## Introduction
